@@ -1,0 +1,24 @@
+/* Dark mode overrides — applied when <html class="dark"> */
+html.dark {
+  --semantic-color-surface-default:      210 19% 11%;
+  --semantic-color-surface-subtle:       210 19% 14%;
+  --semantic-color-surface-light:        210 18% 18%;
+  --semantic-color-surface-muted:        210 17% 22%;
+  --semantic-color-surface-medium:       210 16% 28%;
+  --semantic-color-surface-extra-dark:   0 0% 100%;
+
+  --semantic-color-text-primary:         210 40% 96%;
+  --semantic-color-text-secondary:       213 27% 72%;
+  --semantic-color-text-tertiary:        215 16% 55%;
+  --semantic-color-text-muted:           215 14% 42%;
+
+  --semantic-color-border-default:       210 17% 22%;
+  --semantic-color-border-light:         210 18% 18%;
+  --semantic-color-border-subtle:        210 18% 16%;
+  --semantic-color-border-medium:        210 16% 28%;
+  --semantic-color-border-extra-bold:    213 27% 72%;
+
+  --semantic-color-text-brand-primary:            205 95% 60%;
+  --semantic-color-surface-brand-primary:         205 90% 30%;
+  --semantic-color-surface-brand-primary-subtle:  205 80% 15%;
+}

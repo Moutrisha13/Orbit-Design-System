@@ -1,0 +1,49 @@
+/* Global font — unlayered so it beats Tailwind's @layer base preflight */
+html, body, * {
+  font-family: 'Manrope', sans-serif;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* ── Mesh gradient blobs ─────────────────────────────────────────────────── */
+
+@keyframes mesh-1 {
+  0%   { transform: translate(0%,   0%)   scale(1); }
+  25%  { transform: translate(8%,  -12%)  scale(1.08); }
+  50%  { transform: translate(-6%,  10%)  scale(0.95); }
+  75%  { transform: translate(12%,   6%)  scale(1.05); }
+  100% { transform: translate(0%,   0%)   scale(1); }
+}
+@keyframes mesh-2 {
+  0%   { transform: translate(0%,   0%)   scale(1); }
+  25%  { transform: translate(-10%, 8%)   scale(1.06); }
+  50%  { transform: translate(7%,  -10%)  scale(0.97); }
+  75%  { transform: translate(-5%,  -6%)  scale(1.03); }
+  100% { transform: translate(0%,   0%)   scale(1); }
+}
+@keyframes mesh-3 {
+  0%   { transform: translate(0%,   0%)   scale(1); }
+  33%  { transform: translate(6%,   10%)  scale(1.1); }
+  66%  { transform: translate(-8%,  -8%)  scale(0.93); }
+  100% { transform: translate(0%,   0%)   scale(1); }
+}
+@keyframes mesh-4 {
+  0%   { transform: translate(0%,   0%)   scale(1); }
+  20%  { transform: translate(-7%,  -10%) scale(1.07); }
+  60%  { transform: translate(9%,    7%)  scale(0.96); }
+  100% { transform: translate(0%,   0%)   scale(1); }
+}
+@keyframes mesh-5 {
+  0%   { transform: translate(0%,   0%)   scale(1); }
+  40%  { transform: translate(10%,  -6%)  scale(1.04); }
+  80%  { transform: translate(-6%,  10%)  scale(0.98); }
+  100% { transform: translate(0%,   0%)   scale(1); }
+}
+
+@keyframes orbit-float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-12px); }
+}

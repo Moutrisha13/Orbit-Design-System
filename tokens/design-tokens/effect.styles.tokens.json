@@ -1,0 +1,116 @@
+{
+  "Shadow": {
+    "xs": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "2px",
+          "spread": "0px",
+          "color": "#1018280d"
+        }
+      ]
+    },
+    "sm": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "2px",
+          "spread": "0px",
+          "color": "#1018280f"
+        },
+        {
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "3px",
+          "spread": "0px",
+          "color": "#1018281a"
+        }
+      ]
+    },
+    "md": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "2px",
+          "blur": "4px",
+          "spread": "-2px",
+          "color": "#1018280f"
+        },
+        {
+          "offsetX": "0px",
+          "offsetY": "4px",
+          "blur": "8px",
+          "spread": "-2px",
+          "color": "#1018281a"
+        }
+      ]
+    },
+    "xl": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "8px",
+          "blur": "8px",
+          "spread": "-4px",
+          "color": "#10182808"
+        },
+        {
+          "offsetX": "0px",
+          "offsetY": "20px",
+          "blur": "24px",
+          "spread": "-4px",
+          "color": "#10182814"
+        }
+      ]
+    },
+    "2xl": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "24px",
+          "blur": "48px",
+          "spread": "-12px",
+          "color": "#1018282e"
+        }
+      ]
+    },
+    "lg": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "4px",
+          "blur": "6px",
+          "spread": "-2px",
+          "color": "#10182808"
+        },
+        {
+          "offsetX": "0px",
+          "offsetY": "12px",
+          "blur": "16px",
+          "spread": "-4px",
+          "color": "#10182814"
+        }
+      ]
+    },
+    "3xl": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "32px",
+          "blur": "64px",
+          "spread": "-12px",
+          "color": "#10182824"
+        }
+      ]
+    }
+  }
+}

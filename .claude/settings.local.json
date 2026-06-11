@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp *)",
+      "PowerShell(claude mcp add --transport http figma-desktop http://127.0.0.1:3845/mcp)",
+      "PowerShell(Get-ChildItem \"$env:LOCALAPPDATA\\\\AnthropicClaude\" -Recurse -Filter \"claude.exe\" -ErrorAction SilentlyContinue | Select-Object FullName)",
+      "WebFetch(domain:www.figma.com)",
+      "PowerShell(& \"$HOME\\\\.local\\\\bin\\\\claude.exe\" mcp list)",
+      "PowerShell(& \"$HOME\\\\.local\\\\bin\\\\claude.exe\" mcp add figma-desktop --transport http http://127.0.0.1:3845/mcp)",
+      "PowerShell(& \"$HOME\\\\.local\\\\bin\\\\claude.exe\" mcp add figma-desktop --transport http --scope user http://127.0.0.1:3845/mcp)",
+      "Bash(npm create *)",
+      "Bash(npx --yes create-vite@latest . --template react-ts)",
+      "Bash(npm run *)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(taskkill /PID 9004 /F)",
+      "Bash(npm install *)",
+      "Bash(node sd.config.mjs)",
+      "Bash(npx tsc *)",
+      "Bash(dir /s /b \"C:\\\\Users\\\\moutr\\\\OneDrive\\\\Desktop\\\\Design System\\\\*.json\")",
+      "Bash(dir \"C:\\\\Users\\\\moutr\\\\OneDrive\\\\Desktop\\\\Design System\" /b /s)",
+      "Bash(findstr /v node_modules)",
+      "Bash(findstr /v \".git\")",
+      "mcp__figma-desktop__get_design_context",
+      "mcp__figma-desktop__get_variable_defs",
+      "PowerShell(Get-Process node | Where-Object { $_.MainWindowTitle -eq \"\" } | Stop-Process -Force; Write-Host \"done\")",
+      "Bash(Remove-Item -Recurse -Force \"C:\\\\Users\\\\moutr\\\\OneDrive\\\\Desktop\\\\Design System\\\\node_modules\\\\.vite\")",
+      "Bash(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\moutr\\\\OneDrive\\\\Desktop\\\\Design System\\\\src\\\\pages\\\\foundations\\\\colours\")",
+      "Bash(Out-Null)",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\moutr\\\\OneDrive\\\\Desktop\\\\Design System\\\\src\\\\pages\\\\foundations\\\\colours\")",
+      "Bash(npx storybook@latest init --yes)",
+      "Bash(Select-Object Name)",
+      "Bash(node -e ' *)",
+      "mcp__visualize__show_widget"
+    ]
+  }
+}

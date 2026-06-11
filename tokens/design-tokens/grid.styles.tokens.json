@@ -1,0 +1,58 @@
+{
+  "Large (1200+)": {
+    "$type": "grid",
+    "$value": [
+      {
+        "pattern": "columns",
+        "visible": true,
+        "alignment": "stretch",
+        "color": "#0187861f",
+        "gutterSize": "16px",
+        "count": 12,
+        "offset": "16px"
+      }
+    ]
+  },
+  "Medium (840-1199)": {
+    "$type": "grid",
+    "$value": [
+      {
+        "pattern": "columns",
+        "visible": true,
+        "alignment": "stretch",
+        "color": "#0187861f",
+        "gutterSize": "16px",
+        "count": 12,
+        "offset": "16px"
+      }
+    ]
+  },
+  "Small (600-839)": {
+    "$type": "grid",
+    "$value": [
+      {
+        "pattern": "columns",
+        "visible": true,
+        "alignment": "stretch",
+        "color": "#0187861f",
+        "gutterSize": "16px",
+        "count": 8,
+        "offset": "32px"
+      }
+    ]
+  },
+  "Compact (0-599)": {
+    "$type": "grid",
+    "$value": [
+      {
+        "pattern": "columns",
+        "visible": true,
+        "alignment": "stretch",
+        "color": "#0187861f",
+        "gutterSize": "16px",
+        "count": 4,
+        "offset": "16px"
+      }
+    ]
+  }
+}
