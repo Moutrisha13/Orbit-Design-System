@@ -20,7 +20,7 @@ export default function CheckboxPage() {
   }
 
   return (
-    <PageShell title="Checkbox" description="Checkbox with label and hint across three states and three sizes." tab={tab} setTab={setTab} storybookUrl="http://localhost:6006/?path=/story/components-checkbox--default">
+    <PageShell title="Checkbox" description="Checkbox with label and hint across three states and three sizes." tab={tab} setTab={setTab} storybookUrl="https://orbit-storybook.vercel.app/?path=/docs/components-checkbox--docs">
       {tab === 'playground' && (
         <PlaygroundShell title="Checkbox" description="" onReset={reset}
           controls={<>

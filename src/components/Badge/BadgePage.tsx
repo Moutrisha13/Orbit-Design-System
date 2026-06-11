@@ -16,7 +16,7 @@ export default function BadgePage() {
   function reset() { setColor(DEFAULT.color); setStyle(DEFAULT.style); setShowIcon(DEFAULT.showIcon); setShowCount(DEFAULT.showCount); setLabel(DEFAULT.label); }
 
   return (
-    <PageShell title="Badge" description="Pill-shaped badge with colour tones, icon, and count bubble." tab={tab} setTab={setTab} storybookUrl="http://localhost:6006/?path=/story/components-badge--default">
+    <PageShell title="Badge" description="Pill-shaped badge with colour tones, icon, and count bubble." tab={tab} setTab={setTab} storybookUrl="https://orbit-storybook.vercel.app/?path=/docs/components-badge--docs">
       {tab === 'playground' && (
         <PlaygroundShell title="Badge" description="" onReset={reset}
           controls={<>

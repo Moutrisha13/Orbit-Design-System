@@ -16,7 +16,7 @@ export default function TooltipPage() {
   const PADDING: Record<TooltipPlacement, string> = { top: '80px 0 20px', bottom: '20px 0 80px', left: '0 20px 0 80px', right: '0 80px 0 20px' };
 
   return (
-    <PageShell title="Tooltip" description="Contextual tooltip with four placement options and two style variants." tab={tab} setTab={setTab} storybookUrl="http://localhost:6006/?path=/story/components-tooltip--default">
+    <PageShell title="Tooltip" description="Contextual tooltip with four placement options and two style variants." tab={tab} setTab={setTab} storybookUrl="https://orbit-storybook.vercel.app/?path=/docs/components-tooltip--docs">
       {tab === 'playground' && (
         <PlaygroundShell title="Tooltip" description="" onReset={reset}
           controls={<>

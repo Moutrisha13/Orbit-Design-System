@@ -137,7 +137,7 @@ export function PageShell({
           <h1 className="text-3xl font-bold tracking-tight" style={{ color: 'hsl(var(--semantic-color-text-primary))' }}>{title}</h1>
           <p className="text-sm leading-relaxed" style={{ color: 'hsl(var(--semantic-color-text-secondary))' }}>{description}</p>
         </div>
-        <a href={storybookUrl ?? '#'} target={storybookUrl ? '_blank' : undefined} rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border hover:bg-black/5" style={{ borderColor: 'hsl(var(--semantic-color-border-default))', color: 'hsl(var(--semantic-color-text-secondary))' }}>
+        <a href={storybookUrl ?? '#'} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border hover:bg-black/5" style={{ borderColor: 'hsl(var(--semantic-color-border-default))', color: 'hsl(var(--semantic-color-text-secondary))' }}>
           Storybook <ExternalLink className="size-3" />
         </a>
       </div>

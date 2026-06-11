@@ -16,7 +16,7 @@ export default function AvatarPage() {
   function reset() { setMode(DEFAULT.mode); setSize(DEFAULT.size); setShowStatus(DEFAULT.showStatus); setStatus(DEFAULT.status); setInitials(DEFAULT.initials); setBg(DEFAULT.bg); }
 
   return (
-    <PageShell title="Avatar" description="Circular avatar in image, icon, or initials mode with optional status dot." tab={tab} setTab={setTab} storybookUrl="http://localhost:6006/?path=/story/components-avatar--default">
+    <PageShell title="Avatar" description="Circular avatar in image, icon, or initials mode with optional status dot." tab={tab} setTab={setTab} storybookUrl="https://orbit-storybook.vercel.app/?path=/docs/components-avatar--docs">
       {tab === 'playground' && (
         <PlaygroundShell title="Avatar" description="" onReset={reset}
           controls={<>

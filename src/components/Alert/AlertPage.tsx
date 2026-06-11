@@ -156,7 +156,7 @@ export default function AlertPage() {
           </p>
         </div>
         <a
-          href="http://localhost:6006/?path=/story/components-alert--default"
+          href="https://orbit-storybook.vercel.app/?path=/docs/components-alert--docs" target="_blank" rel="noopener noreferrer"
           className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border transition-colors hover:bg-black/5"
           style={{
             borderColor: 'hsl(var(--semantic-color-border-default))',

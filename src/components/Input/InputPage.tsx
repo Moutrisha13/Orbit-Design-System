@@ -19,7 +19,7 @@ export default function InputPage() {
   function reset() { setState(DEFAULT.state); setSize(DEFAULT.size); setShowLabel(DEFAULT.showLabel); setShowHint(DEFAULT.showHint); setShowLeftIcon(DEFAULT.showLeftIcon); setShowRightIcon(DEFAULT.showRightIcon); setLabel(DEFAULT.label); setPlaceholder(DEFAULT.placeholder); setHint(DEFAULT.hint); }
 
   return (
-    <PageShell title="Input" description="Text input with label, hint text, and icon slots across four states." tab={tab} setTab={setTab} storybookUrl="http://localhost:6006/?path=/story/components-input--default">
+    <PageShell title="Input" description="Text input with label, hint text, and icon slots across four states." tab={tab} setTab={setTab} storybookUrl="https://orbit-storybook.vercel.app/?path=/docs/components-input--docs">
       {tab === 'playground' && (
         <PlaygroundShell title="Input" description="" onReset={reset}
           controls={<>

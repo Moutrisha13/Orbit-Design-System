@@ -51,7 +51,7 @@ export default function TogglePage() {
             style={{ borderColor: 'hsl(var(--semantic-color-border-default))', color: 'hsl(var(--semantic-color-text-secondary))' }}>
             Figma <ExternalLink className="size-3" />
           </a>
-          <a href="http://localhost:6006/?path=/story/components-toggle--default"
+          <a href="https://orbit-storybook.vercel.app/?path=/docs/components-toggle--docs" target="_blank" rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border hover:bg-black/5"
             style={{ borderColor: 'hsl(var(--semantic-color-border-default))', color: 'hsl(var(--semantic-color-text-secondary))' }}>
             Storybook <ExternalLink className="size-3" />
