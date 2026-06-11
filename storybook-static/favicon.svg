@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="sphereGrad" cx="38%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#c8e8ff" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#4da8f0" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#1a6bbf" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="60%" stop-color="#3b9ef5" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#3b9ef5" stop-opacity="0.35"/>
+    </radialGradient>
+    <radialGradient id="rimGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0"/>
+      <stop offset="85%" stop-color="#60b8f5" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#93c5fd" stop-opacity="0.7"/>
+    </radialGradient>
+    <clipPath id="sphereClip">
+      <circle cx="32" cy="31" r="22"/>
+    </clipPath>
+  </defs>
+
+  <!-- outer glow -->
+  <circle cx="32" cy="31" r="28" fill="url(#glowGrad)"/>
+
+  <!-- sphere body -->
+  <circle cx="32" cy="31" r="22" fill="url(#sphereGrad)"/>
+
+  <!-- rim highlight -->
+  <circle cx="32" cy="31" r="22" fill="none" stroke="url(#rimGrad)" stroke-width="1.5"/>
+
+  <!-- specular highlight top-left -->
+  <ellipse cx="26" cy="23" rx="7" ry="5" fill="white" fill-opacity="0.55"/>
+
+  <!-- orbit ring back half (behind sphere, dimmer) -->
+  <ellipse cx="32" cy="36" rx="27" ry="7" fill="none"
+    stroke="#4da8f0" stroke-width="1.2" stroke-opacity="0.35"
+    stroke-dasharray="28 56"
+    stroke-dashoffset="0"/>
+
+  <!-- orbit ring front half (in front of sphere) -->
+  <g clip-path="none">
+    <ellipse cx="32" cy="36" rx="27" ry="7" fill="none"
+      stroke="#5bb8ff" stroke-width="1.4" stroke-opacity="0.85"
+      stroke-dasharray="28 56"
+      stroke-dashoffset="28"/>
+  </g>
+
+  <!-- sphere top layer for depth (subtle inner shadow at bottom) -->
+  <circle cx="32" cy="31" r="22" fill="none" stroke="#1a6bbf" stroke-width="0.5" stroke-opacity="0.4"/>
+</svg>
